@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu126"
+verify_ssl = false
+name = "pytorch"
+
+[packages]
+numpy = "*"
+pillow = "*"
+matplotlib = "*"
+requests = "*"
+torch = {version="*", index="pytorch"}
+torchvision = {version="*", index="pytorch"}
+torchaudio = {version="*", index="pytorch"}
+diffusers = "*"
+huggingface-hub = {extras = ["cli"], version = "*"}
+accelerate = "*"
+scikit-learn = "*"
+jupyter = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
