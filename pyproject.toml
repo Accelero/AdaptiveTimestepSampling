@@ -1,0 +1,26 @@
+[project]
+name = "adaptivetimestepsampling"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy",
+    "pillow",
+    "matplotlib",
+    "requests",
+    "torch",
+    "torchvision",
+    "diffusers",
+    "huggingface-hub[cli]",
+    "accelerate",
+    "scikit-learn",
+    "jupyter",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch" }
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

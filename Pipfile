@@ -15,7 +15,6 @@ matplotlib = "*"
 requests = "*"
 torch = {version="*", index="pytorch"}
 torchvision = {version="*", index="pytorch"}
-torchaudio = {version="*", index="pytorch"}
 diffusers = "*"
 huggingface-hub = {extras = ["cli"], version = "*"}
 accelerate = "*"

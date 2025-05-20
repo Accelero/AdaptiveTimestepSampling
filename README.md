@@ -17,19 +17,28 @@ To view the notebook **download it and open it locally.**
 
 ### Python Dependencies
 
-You have two options to install the required dependencies:
+You have three options to install the required dependencies:
 
 1. Using pip:
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt --index-strategy unsafe-best-match
    ```
 
-2. Using pipenv (recommended):
+2. Using pipenv:
    ```bash
    pip install pipenv
    pipenv install
    ```
    This will create a virtual environment in your home directory with all required dependencies from the Pipfile.
+
+3. Using uv:
+   ```bash
+   pip install uv
+   uv sync
+   ```
+   To install **uv** without using `pip`, see the [official installation instructions](https://docs.astral.sh/uv/getting-started/installation/).
+   
+   This will create a virtual environment in the project directory with all required dependencies from `uv.lock`.
 
 ### Hugging Face Setup
 
