@@ -2,11 +2,6 @@
 
 This project investigates optimized time step sampling techniques for training Denoising Diffusion Probabilistic Models (DDPMs). The core focus is improving training efficiency by adapting the sampling distribution of time steps using frequency domain analysis.
 
-## ⚠️ Notebook Preview Notice
-
-**GitHub preview does not render the notebook properly.**  
-To view the notebook **download it and open it locally.**
-
 ## Prerequisites
 
 - Python 3.13
