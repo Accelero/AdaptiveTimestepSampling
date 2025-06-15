@@ -1,6 +1,8 @@
 # Adaptive Timestep Sampling
 
-This project investigates optimized time step sampling techniques for training Denoising Diffusion Probabilistic Models (DDPMs). The core focus is improving training efficiency by adapting the sampling distribution of time steps using frequency domain analysis.
+This project explores adaptive timestep sampling for image generation with Denoising Diffusion Probabilistic Models (DDPMs) from a frequency-domain perspective. The initial goal was to investigate whether sampling strategies could be improved by incorporating image spectral characteristics. It also examines resolution compensation through spectral analysis, compares the results with existing research, and discusses potential reasons for observed differences.
+
+⚠️ Note: This is an exploratory project intended to develop intuitions and test ideas. No formal model training or benchmarking was performed.
 
 ## Prerequisites
 
